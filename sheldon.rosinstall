@@ -1,8 +1,5 @@
 - git: {local-name: sheldon, uri: 'https://github.com/shinselrobots/sheldon.git'}
-- git: {local-name: astra_body_tracker, uri: 'https://github.com/shinselrobots/astra_body_tracker.git'}
 - git: {local-name: body_tracker_msgs, uri: 'https://github.com/shinselrobots/body_tracker_msgs.git'}
-- git: {local-name: nuitrack_body_tracker, uri: 'https://github.com/shinselrobots/nuitrack_body_tracker.git'}
-- git: {local-name: ros_astra_launch, uri: 'https://github.com/shinselrobots/ros_astra_launch.git'}
 - git: {local-name: safety_control, uri: 'https://github.com/shinselrobots/safety_control.git'}
 - git: {local-name: robot_speech, uri: 'https://github.com/shinselrobots/robot_speech.git'}
 - git: {local-name: robot_behavior, uri: 'https://github.com/shinselrobots/robot_behavior.git'}
