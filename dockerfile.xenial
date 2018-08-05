@@ -22,6 +22,6 @@ RUN mkdir -p /home/${USER}
 RUN chown -R ${USER}:${USER} /home/${USER}
 
 USER ${USER} 
-ADD script_setup.sh script_setup.sh
-RUN bash -c "cd && export USER=${USER} && ./script_setup.sh"
+ADD script_setup.sh /home/${USER}/script_setup.sh
+RUN bash -c "/home/${USER}/script_setup.sh"
 
