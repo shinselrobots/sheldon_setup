@@ -3,12 +3,11 @@
 # Run script as root, unless permissions are dropped elsewhere.  This allows root password to be provided once at start of script
 #
    
-if [ ! -z "$USER" ]
+if [ -z "$USER" ]
 then
   echo "ERROR: USER variable not set"
-#  exit -1
+  exit -1
 fi
-export USER=test_user
 export _DEFAULT_USER="-u $USER"
 
 

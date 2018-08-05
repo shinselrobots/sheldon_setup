@@ -23,5 +23,5 @@ RUN chown -R ${USER}:${USER} /home/${USER}
 
 USER ${USER} 
 ADD script_setup.sh script_setup.sh
-RUN bash -c "cd && /script_setup.sh"
+RUN bash -c "cd && export USER=${USER} && ./script_setup.sh"
 
